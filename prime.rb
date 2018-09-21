@@ -4,10 +4,10 @@ if number <= 1
 elsif
   number == 2 
   return true 
-else
+elsif
  (2..number - 1).to_a.none? {|i| number % i == 0}
     return true
- #else 
-  # return false 
+ else 
+   return false 
 end 
 end
